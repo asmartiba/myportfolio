@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Error from './pages/Error';
+import ColorPicker from './components/ColorPicker';
+import SlotMachine from './components/SlotMachine';
+import PokemonDisplay from './components/PokemonDisplay';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/components">
+            <Route index element={<Portfolio/>}/>
+            <Route  path="color-picker" element={<ColorPicker/>}/>
+            <Route  path="slot-machine" element={<SlotMachine slots={3}/>}/>
+            <Route  path="pokemon-select" element={<PokemonDisplay/>}/>
+          </Route>
+          <Route path="/about" element={<About/>}/>
+          <Route path="*" element={<Error/>}/>
+        </Routes>
+        <Footer copy="Asmar Tiba" year={2022}/>
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+// <Route path="/components" element={<Portfolio/>}/>
+// <Route  path="/components/:id" element={<PortfolioItem/>}/>

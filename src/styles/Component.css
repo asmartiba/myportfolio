@@ -1,0 +1,102 @@
+.compMain, .midContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 43, 43);
+    height: 500px;
+}
+
+.compBtn {
+    width: 110px;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+.PokemonContainer {
+  border: 2px rgb(51, 24, 24) solid;
+  width: 600px;
+  height: 400px;
+  background-color: #25252567;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.SlotMachineContainer {
+    border: 2px rgb(51, 24, 24) solid;
+    width: 600px;
+    height: 400px;
+    background-color: #25252567;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .Slots img {
+    width: 130px;
+    height: 130px;
+    border:3px solid black;
+    border-radius: 30%;
+    margin-left: 10px;
+  }
+  
+  .SlotMachineButton {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff00;
+    color: white;
+    border: 4px solid white;
+    border-radius: 30%;
+  }
+  
+  .saldo {
+    position: absolute;
+    padding-bottom: 250px;
+    font-weight: bolder;
+  }
+
+  .pokemonImg {
+    width: 150px;
+    height: auto;
+  }
+
+  .evolve {
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .colorPicker {
+    border: 2px rgb(51, 24, 24) solid;
+    width: 600px;
+    height: 400px;
+    background-color: #25252567;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+.ErrorPage {
+  width: 400px;
+  height: 420px;
+  background-color: #25252567;
+  color: white;
+}
+
+.Button {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(39, 53, 65);
+  border: 2px solid rgb(235, 238, 42);
+  border-radius: 30px;
+  color: white;
+}

@@ -1,0 +1,65 @@
+.singleItem {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+}
+
+.projects {
+    height: calc(100vh - 100px);
+    background-color: rgb(75, 43, 43);
+}
+
+.projects h1 {
+    color: rgb(255, 203, 112);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projectList {
+    height: calc(100vh - 100px);
+    background-color: rgb(75, 43, 43);
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectList article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.componentBtn {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(39, 53, 65);
+    border: 2px solid rgb(235, 238, 42);
+    border-radius: 30px;
+    color: white;
+}
+
+.singleComp {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(240, 194, 160);
+    border: 3px solid rgb(47, 6, 6);
+    border-radius: 23px;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectList {
+        height: calc(100vh - 100px);
+        background-color: rgb(75, 43, 43);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 1200px;
+        justify-content: space-evenly;
+    }
+
+    .projectList article {
+        text-align: center;
+        justify-content: center;
+    }
+}

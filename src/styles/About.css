@@ -1,0 +1,11 @@
+.myimage {
+    width: 450px;
+    margin-left: 85px;
+    border: 1px solid white;
+}
+
+.mytext {
+    margin-left: 50px;
+    margin-top: 25px;
+    color: lemonchiffon;
+}
