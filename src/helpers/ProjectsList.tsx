@@ -11,8 +11,8 @@ export const projectList = [
         id: "slot-machine"
     },
     {
-        name: "Pokemon Select",
-        id: "pokemon-select"
+        name: "Evolve Eevee",
+        id: "evolve-eevee"
     },
     {
         name: "Pokedex API",
