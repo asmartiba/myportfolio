@@ -78,7 +78,7 @@ const PokemonDisplay = () => {
     
     return (
         <div className='compMain'>
-            <div className='PokemonContainer'>
+            <div className='mainContainer'>
             <h2 style={{color: 'white'}}>Try to evolve this Eevee</h2>
 
             <select style={{width: 125, height: 25, textAlign: 'center', border: '2px solid black', borderRadius: 20}} onChange={(event) => setEvolution(event.target.value)}>

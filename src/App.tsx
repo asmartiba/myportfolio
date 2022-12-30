@@ -9,6 +9,8 @@ import Error from './pages/Error';
 import ColorPicker from './components/ColorPicker';
 import SlotMachine from './components/SlotMachine';
 import PokemonDisplay from './components/PokemonDisplay';
+import Counter from './components/Counter';
+import Pokedex from './components/PokemonAPI';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route  path="color-picker" element={<ColorPicker/>}/>
             <Route  path="slot-machine" element={<SlotMachine slots={3}/>}/>
             <Route  path="evolve-eevee" element={<PokemonDisplay/>}/>
+            <Route  path="pokedex" element={<Pokedex/>}/>
+            <Route  path="counter" element={<Counter/>}/>
           </Route>
           <Route path="/about" element={<About/>}/>
           <Route path="*" element={<Error/>}/>

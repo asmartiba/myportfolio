@@ -13,7 +13,7 @@
     border-radius: 20px;
 }
 
-.PokemonContainer {
+.mainContainer {
   border: 2px rgb(51, 24, 24) solid;
   width: 600px;
   height: 400px;
@@ -23,6 +23,7 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 50px;
+  overflow: scroll;
 }
 
 .SlotMachineContainer {
@@ -99,4 +100,59 @@
   border: 2px solid rgb(235, 238, 42);
   border-radius: 30px;
   color: white;
+}
+
+.CounterButton {
+  width: 60px;
+  height: 25px;
+  background-color: rgb(48, 55, 60);
+  border: 2px solid rgb(227, 227, 181);
+  border-radius: 30px;
+  color: white;
+}
+
+.mainContainerRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 220px;
+  justify-content: center;
+}
+
+
+.pokemonList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+.pokemonContainer {
+  border: 2px rgb(215, 164, 82) solid;
+  width: 400px;
+  height: 350px;
+  background-color: #25252567;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.singlePokemon {
+  flex: 0 1 auto;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid rgb(23, 23, 23); 
+  font-weight: 300;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.inputPokemon {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #2ff2f215;
+  color: white;
+  text-align: center;
 }

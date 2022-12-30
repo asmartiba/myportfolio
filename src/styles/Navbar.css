@@ -13,6 +13,10 @@
     color: white;
 }
 
+.toggleButton {
+    opacity: 0;
+}
+
 .links:hover {
     color: green;
 }
@@ -62,6 +66,7 @@
 @media only screen and (max-width: 600px) {
     .toogleButton {
         display:flex;
+        opacity: 100;
     }
     #close a {
         display: none;

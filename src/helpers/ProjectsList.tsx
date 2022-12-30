@@ -19,8 +19,8 @@ export const projectList = [
         id: "pokedex"
     },
     {
-        name: "Project 05",
-        id: "005"
+        name: "Counter",
+        id: "counter"
     },
     {
         name: "Misnavigation",
