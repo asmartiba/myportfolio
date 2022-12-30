@@ -1,6 +1,3 @@
-import img1 from '../images/img1.png';
-import img2 from '../images/img2.png';
-
 export const projectList = [
     {
         name: "Color Picker",
