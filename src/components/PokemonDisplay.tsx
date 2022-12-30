@@ -82,13 +82,14 @@ const PokemonDisplay = () => {
             <h2 style={{color: 'white'}}>Try to evolve this Eevee</h2>
 
             <select style={{width: 125, height: 25, textAlign: 'center', border: '2px solid black', borderRadius: 20}} onChange={(event) => setEvolution(event.target.value)}>
+                <option>--</option>
                 <option value="Jolteon">Thunder Stone</option>
                 <option value="Flareon">Fire Stone</option>
                 <option value="Vaporeon">Water Stone</option>
                 <option value="Espeon">Morning Love</option>
                 <option value="Umbreon">Night care</option>
                 <option value="Leafeon">Leaf Stone</option>
-                <option value="Glaceon">Glass Shard</option>
+                <option value="Glaceon">Ice Stone</option>
              </select>
              <button className="evolve" onClick={()=> setPokemon(evolution)}>Evolve</button>
             <h2 style={{color: 'lightyellow'}}>{currentPokemon?.name}</h2>

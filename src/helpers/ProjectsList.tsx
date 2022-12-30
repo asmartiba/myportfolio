@@ -21,9 +21,5 @@ export const projectList = [
     {
         name: "Counter",
         id: "counter"
-    },
-    {
-        name: "Misnavigation",
-        id: "empty-test"
     }
 ]

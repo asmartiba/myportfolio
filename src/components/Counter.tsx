@@ -18,7 +18,7 @@ const Counter = () => {
             <button className="CounterButton" style={{color: "red", fontWeight: "bolder"}} onClick={() => setCount(count => count - 10)}>-10</button>
             <button className="CounterButton" style={{color: "red", fontWeight: "bolder"}} onClick={() => setCount(count => count - 5)}>-5</button>
             <button className="CounterButton" style={{color: "red", fontWeight: "bolder"}} onClick={() => setCount(count => count - 0.5)}>-0.5</button>
-            <button className="CounterButton" style={{color: "red", fontWeight: "bolder"}} onClick={() => setCount(count => count - 2.5)}>-2.5 </button>
+            <button className="CounterButton" style={{color: "red", fontWeight: "bolder"}} onClick={() => setCount(count => count - 1)}>-1 </button>
             <button className="CounterButton" style={{color: "green", fontWeight: "bolder"}} onClick={() => setCount(count => count + 0.25)}>0.25</button>
             <button className="CounterButton" style={{color: "green", fontWeight: "bolder"}} onClick={() => setCount(count => count + 0.5)}>0.5</button>
             <button className="CounterButton" style={{color: "green", fontWeight: "bolder"}} onClick={() => setCount(count => count + 1)}>1</button>
