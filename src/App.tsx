@@ -21,7 +21,7 @@ function App() {
             <Route index element={<Portfolio/>}/>
             <Route  path="color-picker" element={<ColorPicker/>}/>
             <Route  path="slot-machine" element={<SlotMachine slots={3}/>}/>
-            <Route  path="pokemon-select" element={<PokemonDisplay/>}/>
+            <Route  path="evolve-eevee" element={<PokemonDisplay/>}/>
           </Route>
           <Route path="/about" element={<About/>}/>
           <Route path="*" element={<Error/>}/>
