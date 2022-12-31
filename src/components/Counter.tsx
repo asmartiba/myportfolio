@@ -28,7 +28,7 @@ const Counter = () => {
 
           <div className="mainContainerRow" style={{marginTop: 50}}> 
           <button className="Button" onClick={() => setCount(count => 0)}>Reset</button>
-          <button className="Button" onClick={() => setCount(count => -9999)}>(’̿ ʖ’̿)=ε/̵͇̿̿/’̿’̿ ̿</button>
+          <button className="Button" onClick={() => setCount(count => -9999)}> ¯\_(ツ)_/¯ </button>
           </div>
         </div>
         <Link to={'/components'}><button className='compBtn'>back</button></Link>
